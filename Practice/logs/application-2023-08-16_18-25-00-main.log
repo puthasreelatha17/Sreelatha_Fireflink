@@ -1,0 +1,5 @@
+18:25:43.507 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Error reading commands.properties, using local instead
+18:25:44.717 [main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+18:25:44.717 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+18:26:26.830 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Error reading versions.properties, using local instead
+18:26:28.329 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Putha Sreelatha\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe

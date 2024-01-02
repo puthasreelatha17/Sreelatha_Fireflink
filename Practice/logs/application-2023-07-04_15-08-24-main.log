@@ -1,0 +1,8 @@
+15:08:24.728 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+15:08:24.761 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Putha Sreelatha\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+15:08:24.762 [main] INFO  com.tyss.basics.TestLogger - Driver set up is completed
+15:08:26.156 [main] INFO  com.tyss.basics.TestLogger - Chrome browser is launched
+15:08:26.163 [main] INFO  com.tyss.basics.TestLogger - Implicit wait of 10 seconds
+15:08:26.279 [main] INFO  com.tyss.basics.TestLogger - Maximized the window
+15:08:29.426 [main] INFO  com.tyss.basics.TestLogger - Logged into Myntra
+15:08:29.601 [main] INFO  com.tyss.basics.TestLogger - Quitting the driver

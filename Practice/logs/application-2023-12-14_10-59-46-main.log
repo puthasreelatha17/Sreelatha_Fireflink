@@ -1,0 +1,4 @@
+10:59:48.828 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 120.0.6099.71 (resolved driver for Chrome 120)
+10:59:48.933 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.71/win64/chromedriver-win64.zip
+10:59:50.161 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+10:59:50.293 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Putha Sreelatha\.cache\selenium\chromedriver\win64\120.0.6099.71\chromedriver.exe

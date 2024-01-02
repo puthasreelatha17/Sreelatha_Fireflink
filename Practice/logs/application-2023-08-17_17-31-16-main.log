@@ -1,0 +1,18 @@
+17:31:18.230 [main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+17:31:18.255 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+17:31:18.408 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Putha Sreelatha\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+17:31:31.942 [main] ERROR net.sourceforge.tess4j.Tesseract - I/O error reading PNG header!
+javax.imageio.IIOException: I/O error reading PNG header!
+	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readHeader(PNGImageReader.java:318)
+	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:701)
+	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1398)
+	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1813)
+	at java.desktop/javax.imageio.ImageReader.readAll(ImageReader.java:1065)
+	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:226)
+	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:194)
+	at fireflink_practise_purpose.Captcha.main(Captcha.java:44)
+Caused by: java.io.EOFException: null
+	at java.desktop/javax.imageio.stream.ImageInputStreamImpl.readFully(ImageInputStreamImpl.java:353)
+	at java.desktop/javax.imageio.stream.ImageInputStreamImpl.readFully(ImageInputStreamImpl.java:361)
+	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readHeader(PNGImageReader.java:235)
+	... 7 common frames omitted

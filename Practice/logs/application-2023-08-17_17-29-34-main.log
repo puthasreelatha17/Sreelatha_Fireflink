@@ -1,0 +1,9 @@
+17:29:36.561 [main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+17:29:36.582 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+17:29:36.815 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Putha Sreelatha\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+17:29:49.038 [main] ERROR net.sourceforge.tess4j.Tesseract - null
+java.lang.NullPointerException: null
+	at net.sourceforge.tess4j.Tesseract.dispose(Tesseract.java:826)
+	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:239)
+	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:194)
+	at fireflink_practise_purpose.Captcha.main(Captcha.java:44)
